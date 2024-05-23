@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1037618614942",
+    "project_id": "livein-4c466",
+    "storage_bucket": "livein-4c466.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037618614942:android:7b7f7e5c054c309b90e18f",
+        "android_client_info": {
+          "package_name": "com.example.liveintech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoIqjhQJ0oMyFYv1NCxV2tF6_dqLA2ySU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
