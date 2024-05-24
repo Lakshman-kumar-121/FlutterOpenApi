@@ -12,13 +12,13 @@ WeatherMate is a Flutter application that provides users with real-time weather 
 
 ## Screenshots
 
-![Login Screen](path_to_your_image/login_screen.png)
+![Login Screen](https://github.com/Lakshman-kumar-121/FlutterOpenApi/blob/main/appimages/1.jpg)
 *Login Screen: Secure login with Firebase Authentication.*
 
-![Sign Up Screen](path_to_your_image/signup_screen.png)
+![Sign Up Screen](https://github.com/Lakshman-kumar-121/FlutterOpenApi/blob/main/appimages/2.jpg)
 *Sign Up Screen: Secure user registration with Firebase Authentication.*
 
-![Home Screen](path_to_your_image/home_screen.png)
+![Home Screen](https://github.com/Lakshman-kumar-121/FlutterOpenApi/blob/main/appimages/3.jpg)
 *Home Screen: Displays real-time weather data including weather, wind speed, gust, pressure, and humidity.*
 
 ## Installation
