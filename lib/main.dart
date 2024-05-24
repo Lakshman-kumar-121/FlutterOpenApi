@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:liveintech/home/homescreen.dart';
 import 'package:liveintech/login/Auth/auth.dart';
-import 'package:liveintech/login/signin.dart';
-import 'package:liveintech/login/signup.dart';
+import 'package:liveintech/login/signin/signin.dart';
+import 'package:liveintech/login/signup/signup.dart';
 
 void main() async{
     await WidgetsFlutterBinding.ensureInitialized();

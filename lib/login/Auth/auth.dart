@@ -2,8 +2,8 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:get/get.dart';
 import 'package:liveintech/login/Auth/authcont.dart';
-import 'package:liveintech/login/signin.dart';
-import 'package:liveintech/login/signup.dart';
+import 'package:liveintech/login/signin/signin.dart';
+import 'package:liveintech/login/signup/signup.dart';
 
 class Auth extends StatelessWidget {
   Auth({super.key});

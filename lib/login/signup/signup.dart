@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:get/get.dart';
-import 'package:liveintech/login/signupcontroller.dart';
+import 'package:liveintech/login/signup/signupcontroller.dart';
 
 class SignUp extends StatelessWidget {
   SignUp({super.key});
@@ -16,13 +16,14 @@ class SignUp extends StatelessWidget {
         scrollDirection: Axis.vertical,
         child: Stack(
           children: [
-            // Positioned(
-                // right: 0,
-                // child: Image.asset(
-                //   'assets/signup.png',
-                //   scale: .99,
-                // )
-                // ),
+            Positioned(
+                right: 0,
+                top: 50,
+                child: Image.network(
+                  'https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png',
+                  width: 100,
+                )
+                ),
             Container(
               width: MediaQuery.of(context).size.width,
               padding: EdgeInsets.only(left: 20, right: 20, top: 60),
@@ -52,7 +53,7 @@ class SignUp extends StatelessWidget {
                     ),
                     Center(
                       child: Text(
-                        "Get amazing delicious food by joining us now!",
+                        "Get accurate weather by joining us now!",
                         style: TextStyle(
                             fontSize: 15, fontWeight: FontWeight.w500),
                       ),

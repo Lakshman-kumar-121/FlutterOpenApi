@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:get/get.dart';
-import 'package:liveintech/login/signincontroller.dart';
+import 'package:liveintech/login/signin/signincontroller.dart';
 
 
 class SignIn extends StatelessWidget {
@@ -42,7 +42,7 @@ class SignIn extends StatelessWidget {
                   height: 35,
                 ),
                 Center(
-                  child: ClipRRect( borderRadius: BorderRadius.circular(100) , child: Image.network('https://firebasestorage.googleapis.com/v0/b/restaurant-9bbe6.appspot.com/o/Accessory%2FAuthentication%2FRectangle%2070.jpg?alt=media&token=96bc5ce8-b093-4991-bfb8-62611cb5946c&_gl=1*fxxah7*_ga*OTgzMzg0NjQ4LjE2ODUzNjk2ODI.*_ga_CW55HF8NVT*MTY4NjEwODQ0OC4xMS4xLjE2ODYxMDg1OTQuMC4wLjA.')),
+                  child: Image.network('https://cdn-icons-png.flaticon.com/512/1779/1779940.png',width: 100,),
                 ),
                 SizedBox(
                   height: 20,

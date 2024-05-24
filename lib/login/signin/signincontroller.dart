@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:liveintech/login/Auth/authcont.dart';
-import 'package:liveintech/login/signup.dart';
+import 'package:liveintech/login/signup/signup.dart';
 class SignInController extends GetxController {
 
   var _firebaseAuth = FirebaseAuth.instance;
